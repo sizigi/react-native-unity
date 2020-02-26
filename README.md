@@ -1,5 +1,10 @@
 
-# @wowmaking/react-native-unity
+# fork of @wowmaking/react-native-unity
+
+Notes:
+
+- Newtonsoft.Json.dll needs to be includeded as a unity package separately in your main project
+
 
 ## Getting started
 
