@@ -3,6 +3,7 @@
   "version": "0.4.2",
   "description": "React Native package to use Unity as library with RN app",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,7 +23,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react-native": "^0.61"
   },
   "dependencies": {
     "event-target-shim": "^5.0.1",
