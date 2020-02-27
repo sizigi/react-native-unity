@@ -1,5 +1,5 @@
 import { EventTarget } from "event-target-shim";
-import * as React from "react";
+import * as React from "react-native";
 
 declare class UnityManager extends EventTarget {
   /** Init with the name of the GameObject to receive all further `execCommand` calls */
@@ -10,7 +10,7 @@ declare class UnityManager extends EventTarget {
 }
 
 /** Place to intercept touch events and send to Unity */
-export const UnityResponderView: React.FunctionComponent<{}>;
+export class UnityResponderView extends React.View {}
 
 /** Singleton Unity Manager that communicates with Unity via native code */
 export const Unity: UnityManager;
